@@ -1,0 +1,2 @@
+2020-01-26 00:19:53,826 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:22] Start test testSearchArticle with parameters[Article articleName='Java'}]
+2020-01-26 00:19:55,786 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:27] Stop test public void com.telran.wiki.tests.SearchArticleTests.testSearchArticle(com.telran.wiki.model.Article)

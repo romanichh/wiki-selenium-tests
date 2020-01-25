@@ -11,4 +11,11 @@ public class Article {
         this.articleName = articleName;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Article " +
+                "articleName='" + articleName + '\'' +
+                '}';
+    }
 }

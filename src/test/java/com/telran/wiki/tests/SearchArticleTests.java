@@ -6,9 +6,10 @@ import org.testng.annotations.Test;
 
 public class SearchArticleTests extends TestBase {
 
-    @Test
-    public void testSearchArticle() {
-        app.getArticle().searchArticleFromMainPage(new Article().withArticleName("Java"));
+
+    @Test(dataProvider = "articleList", dataProviderClass = DataProviders.class)
+    public void testSearchArticle(Article article) {
+        app.getArticle().searchArticleFromMainPage(article);
         String articleTitle = app.getArticle().getArticleName();
         Assert.assertEquals(articleTitle, "Java");
     }
