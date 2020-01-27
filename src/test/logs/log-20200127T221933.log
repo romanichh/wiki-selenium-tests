@@ -1,0 +1,3 @@
+2020-01-27 22:19:38,632 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:22] Start test testLoginNegative with parameters[]
+2020-01-27 22:20:07,865 INFO [Test worker] c.t.w.u.Listener [Listener.java:14] testLoginNegative PASSED
+2020-01-27 22:20:07,866 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:27] Stop test public void com.telran.wiki.tests.LoginTest.testLoginNegative() throws java.lang.InterruptedException

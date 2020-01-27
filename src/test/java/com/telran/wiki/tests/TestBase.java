@@ -1,15 +1,15 @@
 package com.telran.wiki.tests;
 
 import com.telran.wiki.fw.ApplicationManager;
+import com.telran.wiki.utils.Listener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
+
+@Listeners(Listener.class)
 
 public class TestBase {
 

@@ -1,0 +1,26 @@
+2020-01-27 22:17:17,574 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:22] Start test testLoginNegative with parameters[]
+2020-01-27 22:17:39,881 ERROR [Test worker] c.t.w.u.Listener [Listener.java:19] testLoginNegative
+ FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#wpName"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57b33bc5c405a226dce8a2b30f37b6e4
+*** Element info: {Using=id, value=wpName}
+2020-01-27 22:17:39,886 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:27] Stop test public void com.telran.wiki.tests.LoginTest.testLoginNegative() throws java.lang.InterruptedException
+2020-01-27 22:17:39,893 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:22] Start test testLoginPositive with parameters[]
+2020-01-27 22:18:00,031 ERROR [Test worker] c.t.w.u.Listener [Listener.java:19] testLoginPositive
+ FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#wpName"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57b33bc5c405a226dce8a2b30f37b6e4
+*** Element info: {Using=id, value=wpName}
+2020-01-27 22:18:00,033 INFO [Test worker] c.t.w.t.TestBase [TestBase.java:27] Stop test public void com.telran.wiki.tests.LoginTest.testLoginPositive() throws java.lang.InterruptedException
